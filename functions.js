@@ -11,5 +11,6 @@ form.addEventListener("submit", (event) => {
   newTask.append(submit.task);
 
   taskList.appendChild(newTask)
+  form.reset()
 });
 
